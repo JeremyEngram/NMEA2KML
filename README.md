@@ -25,7 +25,7 @@ pip install -r requirements.txt
 >   <img alt="Info" src="https://raw.githubusercontent.com/B0neShAd0w/Markdown/main/Blockquotes/Dark-Theme/note.svg">
 > </picture><br>
 >
-> Note: The Output file will be saved in the same directory as where Input file resides
+> The Output file will be saved to the same directory where Input file resides.
 ```python
 # this will outfile a file using the name of the input file (auto appended with .kml)
 python NMEA2KML.py --input nmea_data.nmea
