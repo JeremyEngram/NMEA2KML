@@ -1,5 +1,6 @@
 import sys
 import argparse
+import os
 
 from colorama import Fore
 
@@ -59,8 +60,8 @@ def extract_coordinates(input_string):
 
 def write_coordinates_to_kml(file_path, gpgga_coordinates, gpgsa_coordinates, gprmc_coordinates):
     try:
-        output_file_path = file_path + ".kml"  # Append .kml extension to the output file path
-        with open(output_file_path, 'a') as file:  # Use 'a' mode to append to the file
+        output_file_path = file_path
+        with open(output_file_path, 'w') as file:  # Use 'w' mode to overwrite file
             file.write('<?xml version="1.0" encoding="UTF-8"?>\n')
             file.write('<kml xmlns="http://www.opengis.net/kml/2.2">\n')
             file.write('<Document>\n')
@@ -111,6 +112,9 @@ def main(args):
     input_file_path = args.input
     output_file_path = args.output
 
+    if output_file_path is None:
+        output_file_path = input_file_path + ".kml"
+
     try:
         with open(input_file_path, 'r') as file:
             input_string = file.read()
@@ -123,8 +127,7 @@ def main(args):
     else:
         gpgga_coordinates, gpgsa_coordinates, gprmc_coordinates = extract_coordinates(input_string)
         write_coordinates_to_kml(output_file_path, gpgga_coordinates, gpgsa_coordinates, gprmc_coordinates)
-        print(f"\033[0m [+] - Coordinates written to '{output_file_path}.kml' file.\n")
-
+        print(f"\033[0m [+] - Coordinates written to '{output_file_path}' file.\n")
 
 def print_help(parser):
     parser.print_help()
@@ -152,8 +155,8 @@ if __name__ == '__main__':
     if not any(vars(args).values()):
         print_help(parser)
 
-    if args.input is None or args.output is None:
-        print("Error: Both --input and --output parameters are required.")
+    if args.input is None:
+        print("Error: --input parameter is required.")
         print_help(parser)
 
     main(args)
