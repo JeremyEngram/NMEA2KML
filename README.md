@@ -30,7 +30,7 @@ python NMEA2KML.py -i nmea_data.nmea -o kml_data
 
 ## Planned features
 
-- [ ] None currently
+- [X] None currently
 
 <!-- CSV, SHP (shapefile), GeoJSON, KML, KMZ or TFRecord -->
 
