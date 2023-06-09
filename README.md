@@ -1,5 +1,6 @@
 # NMEA2KML
-NMEA2KML is a Python script that imports NMEA (National Marine Electronics Association) data via a file and outputs to KML (Keyhole Markup Language) format for use with **Google Earth Pro**, **Google Maps** & **Bing Maps**.\ This has purely been created for use in CTF's.
+NMEA2KML is a Python script that imports NMEA (National Marine Electronics Association) data via a file and outputs to KML (Keyhole Markup Language) format for use with **Google Earth Pro**, **Google Maps** & **Bing Maps**. \
+This has purely been created for use with CTF's.
 
 ![Screenshot 2023-06-09 073559](https://github.com/B0neShAd0w/NMEA2KML/assets/117080369/a00faef7-5672-4ccb-8327-d4e3bd0793ef)
 
