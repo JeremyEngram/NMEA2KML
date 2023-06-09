@@ -21,15 +21,11 @@ pip install -r requirements.txt
 
 #### Import NMEA data from file and export to an KML file.
 ```python
-python NMEA2KML.py --input <INPUT_FILE> --output <OUTPUTFILE>
-```
+# this will outfile a file using the name of the input file (appended with .kml)
+python NMEA2KML.py --input nmea_data.nmea
 
-## Example
-
-#### Import file named `nmea_data.nmea` & output to a file named `kml_data`
-```python
-# Note: the KML extension is automatically appended to the output file name.
-python NMEA2KML.py --input nmea_data.nmea --output kml_data
+# use a desired output file name (make sure to add .kml to the file name)
+python NMEA2KML.py --input nmea_data.nmea --output kml_data.kml
 ```
 
 ## Planned features
