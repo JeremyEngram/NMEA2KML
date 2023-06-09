@@ -30,10 +30,10 @@ python NMEA2KML.py -i nmea_data.nmea -o kml_data
 
 ## Planned features
 
+- [ ] Export results in KMZ
 - [ ] Export results in CSV
 - [ ] Export results in SHP
 - [ ] Export results in GeoJSON
-- [ ] Export results in KMZ
 
 <!-- CSV, SHP (shapefile), GeoJSON, KML, KMZ or TFRecord -->
 
