@@ -27,10 +27,10 @@ pip install -r requirements.txt
 >
 > The Output file will be saved to the same directory where Input file resides.
 ```python
-# this will outfile a file using the name of the input file (auto appended with .kml)
+# This will outfile a file using the name as the input file (auto appended with .kml)
 python NMEA2KML.py --input nmea_data.nmea
 
-# use a desired output file name (make sure to add .kml to the file name)
+# Use a desired output file name name/location (make sure to add .kml extension!)
 python NMEA2KML.py --input nmea_data.nmea --output kml_data.kml
 ```
 
