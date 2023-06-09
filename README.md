@@ -8,7 +8,8 @@ This has purely been created for use with CTF's.
 
 #### Clone the repository
 ```shell
-git clone https://github.com/B0neShad0w/NMEA2KML && cd NMEA2KML
+git clone https://github.com/B0neShad0w/NMEA2KML
+cd NMEA2KML
 ```
 
 #### Install requirements
