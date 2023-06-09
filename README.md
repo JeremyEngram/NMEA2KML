@@ -20,6 +20,12 @@ pip install -r requirements.txt
 ## Usage
 
 #### Import NMEA data from file and export to an KML file.
+> <picture>
+>   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/B0neShAd0w/Markdown/main/Blockquotes/Light-Theme/note.svg">
+>   <img alt="Info" src="https://raw.githubusercontent.com/B0neShAd0w/Markdown/main/Blockquotes/Dark-Theme/note.svg">
+> </picture><br>
+>
+> Note: The Output file will be saved in the same directory as where Input file resides
 ```python
 # this will outfile a file using the name of the input file (auto appended with .kml)
 python NMEA2KML.py --input nmea_data.nmea
