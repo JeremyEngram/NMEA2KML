@@ -24,7 +24,7 @@ python NMEA2KML.py -i <INPUT_FILE> -o <OUTPUTFILE>
 
 #### Import file named `nmea_data.nmea` & output to a file named `kml_data`
 ```python
-# Note: the KML extension is automatically appended to the output file.
+# Note: the KML extension is automatically appended to the output file name.
 python NMEA2KML.py -i nmea_data.nmea -o kml_data
 ```
 
