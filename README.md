@@ -38,4 +38,4 @@ python NMEA2KML.py -i nmea_data.nmea -o kml_data
 <!-- CSV, SHP (shapefile), GeoJSON, KML, KMZ or TFRecord -->
 
 ## Contact
-Feel free to contact me on <a href="https://twitter.com/B0neShad0w">Twitter</a>">Twitter</a>
+Feel free to contact me on <a href="https://twitter.com/B0neShad0w">Twitter</a>
