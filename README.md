@@ -28,10 +28,10 @@ pip3 install -r requirements.txt
 > The Output file will be saved to the same directory where Input file resides.
 ```python
 # This will outfile a file using the name as the input file (auto appended with .kml)
-python NMEA2KML.py --input input_test_data.nmea
+python3 NMEA2KML.py --input input_test_data.nmea
 
 # Use a desired output file name name/location (make sure to add .kml extension!)
-python NMEA2KML.py --input input_test_data.nmea --output output_data.kml
+python3 NMEA2KML.py --input input_test_data.nmea --output output_data.kml
 ```
 #### Load the outputted KML file into Google Earth Pro/Google Maps etc.
 
