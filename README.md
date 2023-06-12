@@ -35,6 +35,12 @@ python NMEA2KML.py --input input_test_data.nmea --output output_data.kml
 ```
 #### Load the outputted KML file into Google Earth Pro/Google Maps etc.
 
+Google Earth Pro
+
+![2023-06-12_11-02](https://github.com/B0neShAd0w/NMEA2KML/assets/117080369/65ab3c7d-3ff5-49f5-9ce5-2dec1a865d83)
+
+Google Maps (My Maps)
+
 ![2023-06-12_10-58](https://github.com/B0neShAd0w/NMEA2KML/assets/117080369/5b9a1ed1-52f1-46f9-883a-ba2376aa17da)
 
 ## Planned features
