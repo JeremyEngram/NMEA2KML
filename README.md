@@ -31,7 +31,7 @@ pip3 install -r requirements.txt
 python NMEA2KML.py --input input_test_data.nmea
 
 # Use a desired output file name name/location (make sure to add .kml extension!)
-python NMEA2KML.py --input input_test_data.nmea --output kml_data.kml
+python NMEA2KML.py --input input_test_data.nmea --output output_data.kml
 ```
 #### Load the outputted KML file into Google Earth Pro/Google Maps etc.
 
