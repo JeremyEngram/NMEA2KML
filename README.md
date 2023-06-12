@@ -33,7 +33,7 @@ python NMEA2KML.py --input input_test_data.nmea
 # Use a desired output file name name/location (make sure to add .kml extension!)
 python NMEA2KML.py --input input_test_data.nmea --output kml_data.kml
 ```
-## Load the KML file into Google Earth Pro/Google Maps etc.
+#### Load the KML file into Google Earth Pro/Google Maps etc.
 
 ![Screenshot 2023-06-12 101815](https://github.com/B0neShAd0w/NMEA2KML/assets/117080369/c2a7b03d-d1cf-4a5e-a7bd-07f05874b8fd)
 
