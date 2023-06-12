@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Extracted Coordinates</name>
+<Folder>
+<name>GPGGA Coordinates</name>
+<Placemark>
+<name>GPGGA 1</name>
+<Point>
+<coordinates>-73.92743333333334,40.5948,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGGA 2</name>
+<Point>
+<coordinates>-73.9349,40.60176666666667,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGGA 3</name>
+<Point>
+<coordinates>-73.9416,40.6004,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGGA 4</name>
+<Point>
+<coordinates>-73.94116666666666,40.59831666666667,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGGA 5</name>
+<Point>
+<coordinates>-73.94615,40.59785,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGGA 6</name>
+<Point>
+<coordinates>-73.9482,40.60926666666667,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGGA 7</name>
+<Point>
+<coordinates>-73.94975,40.616816666666665,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGGA 8</name>
+<Point>
+<coordinates>-73.95146666666666,40.626133333333335,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGGA 9</name>
+<Point>
+<coordinates>-73.95291666666667,40.6335,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGGA 10</name>
+<Point>
+<coordinates>-73.95798333333333,40.63291666666667,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGGA 11</name>
+<Point>
+<coordinates>-73.95645,40.62575,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGGA 12</name>
+<Point>
+<coordinates>-73.95455,40.616233333333334,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGGA 13</name>
+<Point>
+<coordinates>-73.95361666666666,40.61115,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGGA 14</name>
+<Point>
+<coordinates>-73.95781666666667,40.610366666666664,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGGA 15</name>
+<Point>
+<coordinates>-73.9622,40.610166666666665,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGGA 16</name>
+<Point>
+<coordinates>-73.96751666666667,40.609716666666664,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGGA 17</name>
+<Point>
+<coordinates>-73.9688,40.614733333333334,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGGA 18</name>
+<Point>
+<coordinates>-73.96923333333334,40.619233333333334,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGGA 19</name>
+<Point>
+<coordinates>-73.97,40.621766666666666,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGGA 20</name>
+<Point>
+<coordinates>-73.973,40.621116666666666,0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>GPGSA Coordinates</name>
+<Placemark>
+<name>GPGSA 1</name>
+<Point>
+<coordinates>1.0,3.0,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGSA 2</name>
+<Point>
+<coordinates>1.0,3.0,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGSA 3</name>
+<Point>
+<coordinates>1.0,3.0,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGSA 4</name>
+<Point>
+<coordinates>1.0,3.0,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGSA 5</name>
+<Point>
+<coordinates>1.0,3.0,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGSA 6</name>
+<Point>
+<coordinates>1.0,3.0,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGSA 7</name>
+<Point>
+<coordinates>1.0,3.0,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGSA 8</name>
+<Point>
+<coordinates>1.0,3.0,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGSA 9</name>
+<Point>
+<coordinates>1.0,3.0,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGSA 10</name>
+<Point>
+<coordinates>1.0,3.0,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGSA 11</name>
+<Point>
+<coordinates>1.0,3.0,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGSA 12</name>
+<Point>
+<coordinates>1.0,3.0,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGSA 13</name>
+<Point>
+<coordinates>1.0,3.0,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGSA 14</name>
+<Point>
+<coordinates>1.0,3.0,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGSA 15</name>
+<Point>
+<coordinates>1.0,3.0,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGSA 16</name>
+<Point>
+<coordinates>1.0,3.0,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGSA 17</name>
+<Point>
+<coordinates>1.0,3.0,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGSA 18</name>
+<Point>
+<coordinates>1.0,3.0,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGSA 19</name>
+<Point>
+<coordinates>1.0,3.0,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPGSA 20</name>
+<Point>
+<coordinates>1.0,3.0,0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>GPRMC Coordinates</name>
+<Placemark>
+<name>GPRMC 1</name>
+<Point>
+<coordinates>-73.92743333333334,40.5948,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPRMC 2</name>
+<Point>
+<coordinates>-73.9349,40.60176666666667,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPRMC 3</name>
+<Point>
+<coordinates>-73.9416,40.6004,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPRMC 4</name>
+<Point>
+<coordinates>-73.94116666666666,40.59831666666667,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPRMC 5</name>
+<Point>
+<coordinates>-73.94615,40.59785,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPRMC 6</name>
+<Point>
+<coordinates>-73.9482,40.60926666666667,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPRMC 7</name>
+<Point>
+<coordinates>-73.94975,40.616816666666665,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPRMC 8</name>
+<Point>
+<coordinates>-73.95146666666666,40.626133333333335,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPRMC 9</name>
+<Point>
+<coordinates>-73.95291666666667,40.6335,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPRMC 10</name>
+<Point>
+<coordinates>-73.95798333333333,40.63291666666667,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPRMC 11</name>
+<Point>
+<coordinates>-73.95645,40.62575,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPRMC 12</name>
+<Point>
+<coordinates>-73.95455,40.616233333333334,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPRMC 13</name>
+<Point>
+<coordinates>-73.95361666666666,40.61115,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPRMC 14</name>
+<Point>
+<coordinates>-73.95781666666667,40.610366666666664,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPRMC 15</name>
+<Point>
+<coordinates>-73.9622,40.610166666666665,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPRMC 16</name>
+<Point>
+<coordinates>-73.96751666666667,40.609716666666664,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPRMC 17</name>
+<Point>
+<coordinates>-73.9688,40.614733333333334,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPRMC 18</name>
+<Point>
+<coordinates>-73.96923333333334,40.619233333333334,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPRMC 19</name>
+<Point>
+<coordinates>-73.97,40.621766666666666,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GPRMC 20</name>
+<Point>
+<coordinates>-73.973,40.621116666666666,0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+</Document>
+</kml>
