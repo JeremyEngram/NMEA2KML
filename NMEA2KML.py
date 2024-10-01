@@ -4,16 +4,47 @@ import os
 
 from colorama import Fore
 
+def valid_line(line):
+    checksum = 0
+
+    line_checksum = line[-2:]
+    try:
+        line_checksum = int(line_checksum, 16)
+    except ValueError:
+        return False
+
+    for char in line[1:-3]:
+        checksum ^= ord(char)
+
+    if checksum == line_checksum:
+        return True
+
+    return False
+
 def extract_coordinates(input_string):
     gpgga_coordinates_list = []
     gpgsa_coordinates_list = []
     gprmc_coordinates_list = []
 
     lines = input_string.strip().split('\n')
+
     for line in lines:
+        if valid_line(line) == False:
+            continue
+
         line = line.strip()
+        fields = line.split(',')
+
+        # FIXME: this iteration isn't dynamic
+        null_value = False
+        for i in range(len(fields) - 2):
+            if fields[i] == '':
+                null_value = True
+
+        if null_value == True:
+            continue
+
         if line.startswith('$GPGGA'):
-            fields = line.split(',')
             if len(fields) >= 10:
                 latitude = fields[2]
                 latitude_direction = fields[3]
@@ -29,18 +60,7 @@ def extract_coordinates(input_string):
                     longitude_decimal *= -1  # Convert to negative if west
                 gpgga_coordinates_list.append((latitude_decimal, longitude_decimal))
 
-        elif line.startswith('$GPGSA'):
-            fields = line.split(',')
-            if len(fields) >= 4:
-                latitude = fields[2]
-                longitude = fields[3]
-                # Convert latitude and longitude to decimal format
-                latitude_decimal = float(latitude)
-                longitude_decimal = float(longitude)
-                gpgsa_coordinates_list.append((latitude_decimal, longitude_decimal))
-
         elif line.startswith('$GPRMC'):
-            fields = line.split(',')
             if len(fields) >= 4:
                 latitude = fields[3]
                 latitude_direction = fields[4]
