@@ -4,6 +4,13 @@ import os
 
 from colorama import Fore
 
+def null_field(start, end, fields):
+    for i in range(start, end + 1):
+        if fields[i] == "":
+            return True
+
+    return False
+
 def right_fields(line):
     tag_info = {
         "name": "",
@@ -16,7 +23,7 @@ def right_fields(line):
 
     elif(line.startswith('$GPRMC')):
         tag_info["name"] = "GPRMC"
-        tag.info["n_fields"] = 12
+        tag_info["n_fields"] = 12
 
     fields = line.split(",")
     if len(fields) == tag_info["n_fields"]:
@@ -60,10 +67,14 @@ def extract_coordinates(input_string):
         if line == None:
             continue
 
-        print(line)
 
         if line.startswith('$GPGGA'):
             if len(fields) >= 10:
+
+                if null_field(2, 5, fields) == True:
+                    print(line)
+                    continue
+
                 latitude = fields[2]
                 latitude_direction = fields[3]
                 longitude = fields[4]
@@ -80,6 +91,10 @@ def extract_coordinates(input_string):
 
         elif line.startswith('$GPRMC'):
             if len(fields) >= 4:
+
+                if null_field(3, 6, fields) == True:
+                    continue
+
                 latitude = fields[3]
                 latitude_direction = fields[4]
                 longitude = fields[5]
