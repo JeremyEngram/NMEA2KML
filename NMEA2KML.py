@@ -4,6 +4,26 @@ import os
 
 from colorama import Fore
 
+def right_fields(line):
+    tag_info = {
+        "name": "",
+        "n_fields": 0
+    }
+
+    if(line.startswith('$GPGGA')):
+        tag_info["name"] = "GPGGA"
+        tag_info["n_fields"] = 15
+
+    elif(line.startswith('$GPRMC')):
+        tag_info["name"] = "GPRMC"
+        tag.info["n_fields"] = 12
+
+    fields = line.split(",")
+    if len(fields) == tag_info["n_fields"]:
+        return line
+    else:
+        return None
+
 def valid_line(line):
     checksum = 0
 
@@ -35,14 +55,12 @@ def extract_coordinates(input_string):
         line = line.strip()
         fields = line.split(',')
 
-        # FIXME: this iteration isn't dynamic
-        null_value = False
-        for i in range(len(fields) - 2):
-            if fields[i] == '':
-                null_value = True
-
-        if null_value == True:
+        # the line is valid when it has the correct number of fields
+        line = right_fields(line)
+        if line == None:
             continue
+
+        print(line)
 
         if line.startswith('$GPGGA'):
             if len(fields) >= 10:
